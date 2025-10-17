@@ -1,29 +1,40 @@
-# Hello World Web Application
-A minimal and responsive "Hello, World!" web page built with plain HTML and styled using Tailwind CSS.
+# Simple Centered Hello World with Theme Toggle
+
+This project presents a minimalistic web page displaying "Hello, World!" centered both horizontally and vertically. It also includes a functional theme toggle button that allows users to switch between light and dark modes, with their preference persisted using local storage.
 
 ## Features
 
-*   **Simple Display**: Shows "Hello, World!" prominently.
-*   **Fully Responsive**: Adapts seamlessly to various screen sizes, from mobile to desktop.
-*   **Centered Content**: The message is always centered on the page, both horizontally and vertically.
-*   **Modern Styling**: Utilizes Tailwind CSS for a clean and maintainable design, including dark mode support.
-*   **Dark Mode Toggle**: Users can switch between light and dark themes, with preference saved locally.
+*   **Hello, World!**: A clear and prominent "Hello, World!" message.
+*   **Centered Content**: The main content is perfectly centered on the page for optimal readability.
+*   **Responsive Design**: Built with Tailwind CSS, the page is inherently responsive and adapts to various screen sizes.
+*   **Light/Dark Theme Toggle**: A user-friendly button to switch between light and dark color schemes.
+*   **Theme Persistence**: User's theme preference is saved in local storage and applied automatically on subsequent visits.
 
 ## Technologies Used
 
-*   **HTML5**: For the page structure.
-*   **Tailwind CSS**: For all styling and responsiveness, via CDN.
-*   **JavaScript**: A small inline script for dark mode logic.
+*   **HTML5**: For the basic structure of the web page.
+*   **Tailwind CSS**: A utility-first CSS framework for rapid and responsive styling.
+*   **JavaScript**: For dynamic functionality, specifically the theme toggle logic and persistence.
 
-## Setup and Usage
+## Getting Started
 
-This is a single-file application, making it incredibly easy to use.
+To view this project, simply open the `index.html` file in your web browser. No special setup or server is required.
 
-1.  **Save the file**: Save the provided `index.html` content into a file named `index.html` on your local machine.
-2.  **Open in browser**: Simply open the `index.html` file with your preferred web browser.
+### Running Locally
 
-That's it! The page should load and display "Hello, World!" in the center of your screen. You can use the button in the top-right corner to toggle between light and dark modes.
+1.  **Clone the repository** (if this were a repository):
+    ```bash
+    git clone <repository-url>
+    cd <project-directory>
+    ```
+2.  **Open `index.html`**: Locate the `index.html` file in the project directory and open it with your preferred web browser.
+
+## Usage
+
+*   The "Hello, World!" text will be displayed prominently in the center of your screen.
+*   A theme toggle button (sun/moon icon) is located in the top-right corner of the page. Click it to switch between light and dark themes.
+*   Your chosen theme will be remembered even if you close and reopen the page.
 
 ## License
 
-This project is open-source and licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
+This project is open-sourced under the MIT License. See the `LICENSE` file for full details.
