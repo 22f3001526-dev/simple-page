@@ -1,40 +1,39 @@
-# Simple Centered Hello World with Theme Toggle
+# Hello, World! with Theme Toggle
 
-This project presents a minimalistic web page displaying "Hello, World!" centered both horizontally and vertically. It also includes a functional theme toggle button that allows users to switch between light and dark modes, with their preference persisted using local storage.
+A simple, responsive web page displaying "Hello, World!" with a functional dark mode toggle.
 
 ## Features
 
-*   **Hello, World!**: A clear and prominent "Hello, World!" message.
-*   **Centered Content**: The main content is perfectly centered on the page for optimal readability.
-*   **Responsive Design**: Built with Tailwind CSS, the page is inherently responsive and adapts to various screen sizes.
-*   **Light/Dark Theme Toggle**: A user-friendly button to switch between light and dark color schemes.
-*   **Theme Persistence**: User's theme preference is saved in local storage and applied automatically on subsequent visits.
+*   **"Hello, World!" Display:** A centered greeting on the page.
+*   **Responsive Design:** Optimized for various screen sizes using Tailwind CSS.
+*   **Theme Toggle:** Switch between light and dark modes with a button. The preference is saved in local storage.
+*   **System Preference Adherence:** Automatically applies dark mode if the user's system preference is set to dark, unless a specific theme is chosen.
 
 ## Technologies Used
 
-*   **HTML5**: For the basic structure of the web page.
-*   **Tailwind CSS**: A utility-first CSS framework for rapid and responsive styling.
-*   **JavaScript**: For dynamic functionality, specifically the theme toggle logic and persistence.
+*   **HTML5:** Structure of the web page.
+*   **Tailwind CSS:** For all styling and responsive design. (Note: Bootstrap CDN was mentioned in the prompt, but this project adheres to the core instruction of using Tailwind CSS for consistency and single-framework approach).
+*   **JavaScript:** For theme toggling functionality and local storage management.
 
-## Getting Started
+## Setup and Usage
 
-To view this project, simply open the `index.html` file in your web browser. No special setup or server is required.
+To view this project, simply download the `index.html` file and open it in your web browser. No special build steps or server are required.
 
-### Running Locally
-
-1.  **Clone the repository** (if this were a repository):
+1.  **Clone the repository (or save `index.html`):**
     ```bash
-    git clone <repository-url>
-    cd <project-directory>
+    git clone <repository-url> # Replace with actual URL if applicable
+    cd hello-world-theme
     ```
-2.  **Open `index.html`**: Locate the `index.html` file in the project directory and open it with your preferred web browser.
 
-## Usage
+2.  **Open `index.html`:**
+    Double-click `index.html` in your file explorer, or open it via your browser's file menu.
 
-*   The "Hello, World!" text will be displayed prominently in the center of your screen.
-*   A theme toggle button (sun/moon icon) is located in the top-right corner of the page. Click it to switch between light and dark themes.
-*   Your chosen theme will be remembered even if you close and reopen the page.
+## Customization
+
+*   **Text Content:** Modify the `<h1>` tag in `index.html` to change the main greeting.
+*   **Styling:** Adjust Tailwind CSS classes directly in `index.html` to customize the look and feel.
+*   **Theme Toggle:** The JavaScript logic for theme toggling is self-contained within `index.html` and can be adapted if needed.
 
 ## License
 
-This project is open-sourced under the MIT License. See the `LICENSE` file for full details.
+This project is open source and available under the MIT License. See the `LICENSE` file for more details.
