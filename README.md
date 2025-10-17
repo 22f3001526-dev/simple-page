@@ -1,38 +1,27 @@
-# Hello, World! with Theme Toggle
+# Hello World & Theme Toggle
 
-A simple, responsive web page displaying "Hello, World!" with a functional dark mode toggle.
+This project presents a simple, responsive web page displaying "Hello, World!" with a functional light/dark theme toggle. The selected theme preference is remembered across sessions using `localStorage`.
 
 ## Features
 
-*   **"Hello, World!" Display:** A centered greeting on the page.
-*   **Responsive Design:** Optimized for various screen sizes using Tailwind CSS.
-*   **Theme Toggle:** Switch between light and dark modes with a button. The preference is saved in local storage.
-*   **System Preference Adherence:** Automatically applies dark mode if the user's system preference is set to dark, unless a specific theme is chosen.
+*   **"Hello, World!"**: The classic greeting displayed prominently.
+*   **Responsive Design**: Built with Tailwind CSS for optimal viewing on various screen sizes.
+*   **Light/Dark Theme Toggle**: A button to switch between light and dark modes.
+*   **Persistent Theme**: The user's chosen theme is saved in `localStorage` and applied automatically on subsequent visits.
+*   **System Preference Integration**: If no theme is saved, the page defaults to the user's system theme preference.
 
 ## Technologies Used
 
-*   **HTML5:** Structure of the web page.
-*   **Tailwind CSS:** For all styling and responsive design. (Note: Bootstrap CDN was mentioned in the prompt, but this project adheres to the core instruction of using Tailwind CSS for consistency and single-framework approach).
-*   **JavaScript:** For theme toggling functionality and local storage management.
+*   **HTML5**: Structure of the web page.
+*   **Tailwind CSS**: For styling and responsiveness, included via CDN.
+*   **JavaScript**: For theme toggling logic and `localStorage` management.
 
 ## Setup and Usage
 
-To view this project, simply download the `index.html` file and open it in your web browser. No special build steps or server are required.
+To run this project, simply download the `index.html` file and open it in any modern web browser. No special server setup or build process is required.
 
-1.  **Clone the repository (or save `index.html`):**
-    ```bash
-    git clone <repository-url> # Replace with actual URL if applicable
-    cd hello-world-theme
-    ```
-
-2.  **Open `index.html`:**
-    Double-click `index.html` in your file explorer, or open it via your browser's file menu.
-
-## Customization
-
-*   **Text Content:** Modify the `<h1>` tag in `index.html` to change the main greeting.
-*   **Styling:** Adjust Tailwind CSS classes directly in `index.html` to customize the look and feel.
-*   **Theme Toggle:** The JavaScript logic for theme toggling is self-contained within `index.html` and can be adapted if needed.
+1.  Save the content of `index.html` into a file named `index.html`.
+2.  Open `index.html` in your web browser.
 
 ## License
 
